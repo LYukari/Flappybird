@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c03a513e5ab79d84d9b6bd5aa5a11872
+guid: 068842edccdb0ed45b43ce6b1b1399ec
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -315,7 +315,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -418,7 +418,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: background
+      name: Background
       rect:
         serializedVersion: 2
         x: 0
@@ -462,16 +462,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: floor
+      name: Ground
       rect:
         serializedVersion: 2
-        x: 290
-        y: 455
-        width: 170
-        height: 57
+        x: 292
+        y: 456
+        width: 168
+        height: 56
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 1, y: 1, z: 1, w: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -638,12 +638,34 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_11
+      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_10
       rect:
         serializedVersion: 2
         x: 294
+        y: 431
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081e4466ed9c6e3b0800000000000000
+      internalID: -5483473539241287296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 328
         y: 427
-        width: 94
+        width: 60
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -663,10 +685,10 @@ TextureImporter:
       name: Game Over
       rect:
         serializedVersion: 2
-        x: 392
-        y: 430
-        width: 101
-        height: 24
+        x: 395
+        y: 432
+        width: 96
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -699,28 +721,6 @@ TextureImporter:
       bones: []
       spriteID: 639cde2006d8b79c0800000000000000
       internalID: -3928390806445110986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Start
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 373
-        width: 57
-        height: 52
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8107ed4f0c3bb6320800000000000000
-      internalID: 2552331255158829080
       vertices: []
       indices: 
       edges: []
@@ -1430,13 +1430,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PipeDown
+      name: Pipe-Down
       rect:
         serializedVersion: 2
-        x: 55
-        y: 28
-        width: 28
-        height: 162
+        x: 56
+        y: 29
+        width: 26
+        height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1452,13 +1452,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PipeUp
+      name: Pipe-Up
       rect:
         serializedVersion: 2
         x: 84
         y: 28
-        width: 28
-        height: 162
+        width: 26
+        height: 161
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1914,7 +1914,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flappy_1
+      name: Flappy-1
       rect:
         serializedVersion: 2
         x: 2
@@ -1936,7 +1936,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flappy_2
+      name: Flappy-2
       rect:
         serializedVersion: 2
         x: 30
@@ -1958,7 +1958,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flappy_3
+      name: Flappy-3
       rect:
         serializedVersion: 2
         x: 58
@@ -2046,13 +2046,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_0
+      name: Start
       rect:
         serializedVersion: 2
-        x: 242
-        y: 188
-        width: 15
-        height: 5
+        x: 293
+        y: 372
+        width: 56
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2061,8 +2061,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 054e24441f3269d408ad3174a9fbc10f
-      internalID: -1083244141
+      spriteID: bd7e60bba1e963945805c7cb027a9663
+      internalID: 522519252
       vertices: []
       indices: 
       edges: []
@@ -2071,7 +2071,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7ab7ebc0844c2ab45979a4ee5ed9cab3
+    spriteID: 4562aee1c74bdbd4fb3b18e216ea39aa
     internalID: 0
     vertices: []
     indices: 
@@ -2081,13 +2081,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Background: -3028843797619237106
+      Flappy-1: 1056323664804065294
+      Flappy-2: -1140478425515490406
+      Flappy-3: 7446298840931430197
       Game Over: 6341464390685209381
-      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_0: -1083244141
+      Ground: -4561133946181240693
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_1: -5001303908148437828
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_10: -5483473539241287296
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_11: 3435553997651536362
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_13: -58746710848001993
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_14: -3928390806445110986
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_15: 2552331255158829080
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_16: 4623261541612039627
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_17: -4350432165510783863
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_18: -6664834790808235504
@@ -2155,14 +2160,9 @@ TextureImporter:
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_8: 8429115218152209709
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_80: 6615753734836925697
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_9: 7872081108920916189
-      PipeDown: -9212221691092033360
-      PipeUp: -4685103279127582271
-      Start: 2552331255158829080
-      background: -3028843797619237106
-      flappy_1: 1056323664804065294
-      flappy_2: -1140478425515490406
-      flappy_3: 7446298840931430197
-      floor: -4561133946181240693
+      Pipe-Down: -9212221691092033360
+      Pipe-Up: -4685103279127582271
+      Start: 522519252
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
